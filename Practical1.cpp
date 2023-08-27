@@ -1,4 +1,5 @@
 #include <iostream>
+#include <conio.h>
 
 using namespace std;
 
@@ -13,5 +14,6 @@ int main(){
     tempCentigrade = fahrenheitToCentigrade(tempFahrenheit);
     cout<<"Temperature in Centigrade: "<<tempCentigrade;
 
+    getch();
     return 0;
 }
